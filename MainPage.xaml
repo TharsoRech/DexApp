@@ -1,24 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:vms="clr-namespace:DexApp.ViewModels"
-             x:DataType="vms:MainPageViewModel"
-             x:Class="DexApp.MainPage">
+<ContentPage
+    x:Class="DexApp.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vms="clr-namespace:DexApp.ViewModels"
+    x:DataType="vms:MainPageViewModel">
     <ScrollView>
-        <VerticalStackLayout
-            Padding="30"
-            Spacing="25">
-            <Label Text="DEX APP"></Label>
-            <Button
-                Text="Send File" 
-                HorizontalOptions="Fill" />
-            <Button
-                Text="Send Second File" 
-                HorizontalOptions="Fill" />
-            <ActivityIndicator 
-                IsRunning="{Binding IsLoading}" 
-                IsVisible="{Binding IsLoading}" >
-            </ActivityIndicator>
+        <VerticalStackLayout Padding="30" Spacing="25">
+            <Label Text="DEX APP" />
+            <Button HorizontalOptions="Fill" Text="Send Report A" />
+            <Button HorizontalOptions="Fill" Text="Send Report B" />
+            <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" />
+            <Label Text="{Binding Result}" />
         </VerticalStackLayout>
     </ScrollView>
 
