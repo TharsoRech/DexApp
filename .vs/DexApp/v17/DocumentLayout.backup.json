@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Tharso\\Downloads\\DexApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{350120D9-2FA7-439D-97C1-DE8ADCC86D9F}|DexApp.csproj|c:\\users\\tharso\\downloads\\dexapp\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{350120D9-2FA7-439D-97C1-DE8ADCC86D9F}|DexApp.csproj|solutionrelative:viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{350120D9-2FA7-439D-97C1-DE8ADCC86D9F}|DexApp.csproj|c:\\users\\tharso\\downloads\\dexapp\\repository\\dexrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{350120D9-2FA7-439D-97C1-DE8ADCC86D9F}|DexApp.csproj|solutionrelative:repository\\dexrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{350120D9-2FA7-439D-97C1-DE8ADCC86D9F}|DexApp.csproj|c:\\users\\tharso\\downloads\\dexapp\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{350120D9-2FA7-439D-97C1-DE8ADCC86D9F}|DexApp.csproj|solutionrelative:viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{350120D9-2FA7-439D-97C1-DE8ADCC86D9F}|DexApp.csproj|c:\\users\\tharso\\downloads\\dexapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{350120D9-2FA7-439D-97C1-DE8ADCC86D9F}|DexApp.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{350120D9-2FA7-439D-97C1-DE8ADCC86D9F}|DexApp.csproj|c:\\users\\tharso\\downloads\\dexapp\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{350120D9-2FA7-439D-97C1-DE8ADCC86D9F}|DexApp.csproj|solutionrelative:platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{350120D9-2FA7-439D-97C1-DE8ADCC86D9F}|DexApp.csproj|c:\\users\\tharso\\downloads\\dexapp\\dexapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{350120D9-2FA7-439D-97C1-DE8ADCC86D9F}|DexApp.csproj|solutionrelative:dexapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,41 +54,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Tharso\\Downloads\\DexApp\\ViewModels\\MainPageViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MainPageViewModel.cs",
-              "ToolTip": "C:\\Users\\Tharso\\Downloads\\DexApp\\ViewModels\\MainPageViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MainPageViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T23:21:43.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DEXRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Tharso\\Downloads\\DexApp\\Repository\\DEXRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\DEXRepository.cs",
-              "ToolTip": "C:\\Users\\Tharso\\Downloads\\DexApp\\Repository\\DEXRepository.cs",
-              "RelativeToolTip": "Repository\\DEXRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T23:18:17.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Tharso\\Downloads\\DexApp\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\Tharso\\Downloads\\DexApp\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T21:06:05.151Z",
+              "WhenOpened": "2025-06-19T00:52:37.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tharso\\Downloads\\DexApp\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Platforms\\Windows\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Tharso\\Downloads\\DexApp\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeToolTip": "Platforms\\Windows\\App.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T00:49:17.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DexApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Tharso\\Downloads\\DexApp\\DexApp.csproj",
+              "RelativeDocumentMoniker": "DexApp.csproj",
+              "ToolTip": "C:\\Users\\Tharso\\Downloads\\DexApp\\DexApp.csproj",
+              "RelativeToolTip": "DexApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-19T00:31:09.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tharso\\Downloads\\DexApp\\ViewModels\\MainPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Tharso\\Downloads\\DexApp\\ViewModels\\MainPageViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainPageViewModel.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T23:21:43.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DEXRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tharso\\Downloads\\DexApp\\Repository\\DEXRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\DEXRepository.cs",
+              "ToolTip": "C:\\Users\\Tharso\\Downloads\\DexApp\\Repository\\DEXRepository.cs*",
+              "RelativeToolTip": "Repository\\DEXRepository.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T23:18:17.937Z",
               "EditorCaption": ""
             }
           ]

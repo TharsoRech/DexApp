@@ -8,8 +8,14 @@
     <ScrollView>
         <VerticalStackLayout Padding="30" Spacing="25">
             <Label Text="DEX APP" />
-            <Button HorizontalOptions="Fill" Text="Send Report A" />
-            <Button HorizontalOptions="Fill" Text="Send Report B" />
+            <Button
+                Command="{Binding SendFirstFileCommand}"
+                HorizontalOptions="Fill"
+                Text="Send Report A" />
+            <Button
+                Command="{Binding SendSecondFileCommand}"
+                HorizontalOptions="Fill"
+                Text="Send Report B" />
             <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" />
             <Label Text="{Binding Result}" />
         </VerticalStackLayout>

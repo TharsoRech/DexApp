@@ -1,5 +1,6 @@
 using DexApp.Repository.Interfaces;
-using System.Net.Http.Headers;
+using Newtonsoft.Json;
+using RestSharp;
 using System.Text;
 
 namespace DexApp.Repository;
@@ -13,24 +14,38 @@ public class DEXRepository:IDEXRepository
     {
         try
         {
+            // Create the payload object
             var payload = new
             {
                 MachineName = machineName,
                 DexFileContent = reportContent
             };
 
-            var jsonString = System.Text.Json.JsonSerializer.Serialize(payload);
-            var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
+            // Serialize payload to JSON
+            var jsonString = JsonConvert.SerializeObject(payload);
+
+            // Set up RestSharp client
+            var client = new RestClient(apiUrl);
+
+            // Prepare the request
+            var request = new RestRequest();
+            request.Method = Method.Post;
+            request.AddHeader("Content-Type", "application/json");
 
             // Add Basic Auth header
-            //Maybe with more time put this info on app settings
             var username = "vendsys";
             var password = "NFsZGmHAGWJSZ#RuvdiV";
             var authHeader = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{username}:{password}"));
-            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", authHeader);
+            request.AddHeader("Authorization", $"Basic {authHeader}");
 
-            var response = await _httpClient.PostAsync(apiUrl, content);
-            return response.IsSuccessStatusCode;
+            // Add JSON body
+            request.AddJsonBody(jsonString);
+
+            // Execute request
+            var response = await client.ExecuteAsync(request);
+
+            // Check response
+            return response.IsSuccessful;
         }
         catch (Exception ex)
         {
